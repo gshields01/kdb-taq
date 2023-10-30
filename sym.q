@@ -1,4 +1,5 @@
 // schema.q
+/ script defines tables used in tick architecture
 // Quote Table Schema
 quote:([]time:`timestamp$();sym:`symbol$();bid:`float$();ask:`float$();bsize:`long$();asize:`long$());
 // trade Table Schema
